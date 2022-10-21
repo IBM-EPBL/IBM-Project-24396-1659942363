@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>User Page</title>
+<link rel="stylesheet"
+href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+<script
+src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
+</head>
+<body>
+<div class="container">
+<div class="col-md-5">
+<h3 class="page-header text-info">User Page</h3>
+<h3 ><marquee behavior="scroll" direction="left">Welcome
+{{g.user.username}}</marquee></h3><hr>
+<h4><a href="{{url_for('logout')}}">Logout</a></h4>
+</div>
+</div>
+</body>
+</html>
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" href="h.css">
+</head>
+<body align="center" bgcolor="sky blue">
+<img src="C:\venv\templates\background.jpg" alt="back">
+<h1 align="center">
+<b>Smart Fassion Recommended System</b>
+</h1>
+<h1 align="center">Login Page</h1>
+{% with messages=get_flashed_messages(with_categories=true) %}
+{% if messages %}
+{% for category,message in messages %}
+<div class="alert alert-
+{{category}}">{{message}}</div>
+{% endfor %}{% endif %}
+{% endwith %}
+<form method="POST" action="/" autocomplete="on">
+<div class="form-group">
+<label >Username</label>
+<input type="text" name="uname" class="form-control">
+</div>
+<div class="form-group">
+<label>Password</label>
+<input type="password" name="upass" class="form-
+control">
+</div>
+<div class="form-group">
+<input type="submit" Value="Login" class="btn btn-
+primary" color="blue">
+</div>
+</form>
+</.center>
+</body>
+</html>
+<script>
+$(document).ready(function(){
+$(".alert").hide(4000);
+});
+</script>
