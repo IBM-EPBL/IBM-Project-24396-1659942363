@@ -17,10 +17,10 @@ Team ID : **PNT2022TMID21269**
 * Project Design & Planning - done
 * Project Planning - done
 
-Sprint 1 - done
-Sprint 2 - done
-Sprint 3 - done
-Sprint 4 - done
+* Sprint 1 - done
+* Sprint 2 - done
+* Sprint 3 - done
+* Sprint 4 - done
 
 VIDEO LINK:
 
