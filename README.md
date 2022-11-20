@@ -14,8 +14,14 @@ Team ID : **PNT2022TMID21269**
 
 * Ideation Phase - done
 * Problem Statement - done
-* Project Design & Planning - done
+* Project Design 1 & Planning 1 - done
+* Project Design 2 & Planning 2 - done
 * Project Planning - done
+
+* SETTING UP APPLICATION ENVIRONMENT done
+* IMPLEMENTING WEB APPLICATION done
+* INTEGRATING SENDGRID SERVICE done
+* DEPLOYMENT OF APP IN IBM CLOUD done
 
 * Sprint 1 - done
 * Sprint 2 - done
