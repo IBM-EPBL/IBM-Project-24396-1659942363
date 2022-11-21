@@ -30,3 +30,6 @@ Team ID : **PNT2022TMID21269**
 
 VIDEO LINK: https://drive.google.com/file/d/1F9-_VuwA-K2Cz3Yb7Es5tvI10ERrQ6f8/view?usp=share_link
 
+Deployed Link: http://159.122.183.92:31988
+
+
